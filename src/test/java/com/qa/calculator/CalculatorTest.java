@@ -15,5 +15,12 @@ public class CalculatorTest {
 		String addResult = calc.add(2,2);
 		Assert.assertEquals("The result is 4", addResult);
 	}
+	
+	@Test
+	public void subtractCalculatorTest() {
+		Calculator calc = new Calculator();
+		String subtractResult = calc.subtract(4,2);
+		Assert.assertEquals("The result is 2", subtractResult);
+	}
 
 }
